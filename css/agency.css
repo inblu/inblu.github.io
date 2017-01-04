@@ -190,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: #33a7ff;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -236,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/about/escaleras_portada.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -284,7 +284,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 }
 section {
@@ -292,15 +292,15 @@ section {
 }
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin-top: 4px;
+  margin-bottom: 5px;
 }
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
+  top: 10px;
   margin-bottom: 75px;
 }
 @media (min-width: 768px) {
@@ -566,58 +566,18 @@ aside.clients img {
 section#contact {
   background-color: #222222;
   background-image: url('../img/map-image.png');
+  margin-bottom: 20px;
   background-position: center;
   background-repeat: no-repeat;
 }
 section#contact .section-heading {
   color: white;
+    margin-bottom: -100px;
 }
 section#contact .form-group {
   margin-bottom: 25px;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-section#contact .form-control:focus {
-  border-color: #0091ff;
-  box-shadow: none;
-}
-section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact .text-danger {
-  color: #e74c3c;
-}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -751,11 +711,33 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-body {
-  webkit-tap-highlight-color: #0091ff;
-}
 
 
 .espacio-izquierda {
     margin-left: 5px;
+}
+.img-logo {
+    margin-top: -180px;
+    margin-left: -130px;
+}
+
+.contacto {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+    color: whitesmoke;
+    position: relative;
+    top: -105px    
+}
+.subtitulo_contacto {
+  font-size: 18px;
+  font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+  text-transform: none;
+  font-weight: 400;
+position: relative;
+    top: -105px;
 }
