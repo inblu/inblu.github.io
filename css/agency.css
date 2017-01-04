@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #47525d;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -236,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/about/escaleras_portada.jpeg');
+  background-image: url('../img/escaleras.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
