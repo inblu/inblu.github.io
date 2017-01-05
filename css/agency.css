@@ -545,7 +545,7 @@ section h3.section-subheading {
 }
 .team-member {
     position: relative;
-   left: px;
+   left: 187px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -568,6 +568,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
+    height: 300px;
   background-image: url('../img/map-image.png');
   margin-bottom: 20px;
   background-position: center;
@@ -749,7 +750,22 @@ position: relative;
     top: -105px;
 }
 
+.datos {
+    font-size: 20px;
+    height: 50; width: 400px;
+    font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    left: 20px;
+    top: -110px;
+    text-transform: none;
+    font-weight: 500;
+    font-stretch: semi-expanded;
+    text-align: left
+}
 
+
+}
 .col-sm-4 {
     position: center;
     left: 190px;
