@@ -720,7 +720,7 @@ img::-moz-selection {
     margin-left: 5px;
 }
 .img-logo {
-    max-height: 700px;
+    max-height: 500px;
     max-width:400px;
     margin-top: -100px;
     margin-left: -20px;
