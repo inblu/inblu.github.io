@@ -544,12 +544,14 @@ section h3.section-subheading {
   }
 }
 .team-member {
-object-position: center;
+    position: relative;
+   left: px;
   text-align: center;
   margin-bottom: 50px;
 }
 .team-member img {
-    object-position: right;
+    height: 75%; width: 75%;
+    object-position: center;
   margin: 0 auto;
   border: 8px solid white;
 }
@@ -747,8 +749,9 @@ position: relative;
     top: -105px;
 }
 
-.equipo {
-    position:relative;
+
+.col-sm-4 {
+    position: center;
+    left: 190px;
     
-    margin-left: 300px
 }
