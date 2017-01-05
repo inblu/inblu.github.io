@@ -657,6 +657,8 @@ ul.social-buttons li a:active {
   margin-top: 0;
 }
 .portfolio-modal .modal-content img {
+    max-height: 500px;
+    max-width: 500px;
   margin-bottom: 30px;
 }
 .portfolio-modal .close-modal {
