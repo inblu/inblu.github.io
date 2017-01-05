@@ -240,7 +240,7 @@ header {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
+  -webkit-background-size: center;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
@@ -719,8 +719,8 @@ img::-moz-selection {
     margin-left: 5px;
 }
 .img-logo {
-    margin-top: -180px;
-    margin-left: -130px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .contacto {
