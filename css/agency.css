@@ -430,14 +430,14 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: white;
-  color: #33a7ff;
+  background-color: #33a7ff;
+  color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 8px;
   margin-top: 12px;
   line-height: 14px;
 }
@@ -493,7 +493,7 @@ section h3.section-subheading {
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
+    font-size: 11px;
     margin-top: 16px;
     line-height: 18px;
   }
@@ -516,7 +516,7 @@ section h3.section-subheading {
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 30px;
     line-height: 26px;
   }
@@ -545,9 +545,8 @@ section h3.section-subheading {
 }
 .team-member {
     position: relative;
-   left: 187px;
-  text-align: center;
-  margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .team-member img {
     height: 75%; width: 75%;
@@ -662,7 +661,8 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content img {
     max-height: 500px;
     max-width: 500px;
-  margin-bottom: 30px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 .portfolio-modal .close-modal {
   position: absolute;
@@ -723,11 +723,9 @@ img::-moz-selection {
     margin-left: 5px;
 }
 .img-logo {
-    max-height: 500px;
-    max-width:500px;
+    width: 80%;
     left: 50%;
-    margin-left: -50px;
-    margin-top: -75px;
+    max-width: 576px;
 }
 
 .contacto {
@@ -739,7 +737,7 @@ img::-moz-selection {
   margin-bottom: 25px;
     color: whitesmoke;
     position: relative;
-    top: -105px    
+    top: -105px
 }
 .subtitulo_contacto {
   font-size: 18px;
@@ -774,25 +772,25 @@ position: relative;
 .col-sm-4 {
     position: center;
     left: 190px;
-    
+
 }
 
 .circulo_porque {
-    position: relative;  
+    position: relative;
     margin-top: 20px;
     height: 90px;
     width: 110px;
 }
 
 .circulo_porque1 {
-    position: relative;  
+    position: relative;
     margin-top: 30px;
     height: 100px;
     width: 120px;
 }
-    
+
     .circulo_porque2 {
-    position: relative;  
+    position: relative;
     margin-top:45px;
     height:60px;
     width: 120px;
