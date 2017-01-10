@@ -763,7 +763,9 @@ position: relative;
     font-stretch: semi-expanded;
     text-align: left
 }
-
+.espacio-derecha {
+  margin: 10px;
+}
 
 }
 .col-sm-4 {
