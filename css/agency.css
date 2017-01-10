@@ -430,8 +430,8 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #0091ff;
-  color: white;
+  background-color: white;
+  color: #33a7ff;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
   text-align: center;
@@ -724,9 +724,10 @@ img::-moz-selection {
 }
 .img-logo {
     max-height: 500px;
-    max-width:400px;
-    margin-top: -100px;
-    margin-left: -20px;
+    max-width:500px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -75px;
 }
 
 .contacto {
@@ -766,10 +767,33 @@ position: relative;
 .espacio-derecha {
   margin: 10px;
 }
-
+.refugio {
+    height: 100px;
+}
 }
 .col-sm-4 {
     position: center;
     left: 190px;
     
+}
+
+.circulo_porque {
+    position: relative;  
+    margin-top: 20px;
+    height: 90px;
+    width: 110px;
+}
+
+.circulo_porque1 {
+    position: relative;  
+    margin-top: 30px;
+    height: 100px;
+    width: 120px;
+}
+    
+    .circulo_porque2 {
+    position: relative;  
+    margin-top:45px;
+    height:60px;
+    width: 120px;
 }
