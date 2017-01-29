@@ -1411,6 +1411,7 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
+  max-width: 100%;
   padding-bottom: 2px;
   margin: -10px -23px 0px;
   border-bottom: 1px solid #eee;
