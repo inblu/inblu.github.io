@@ -291,6 +291,7 @@ header .intro-text .intro-heading {
 }
 section {
     padding: 80px 0;
+    
 }
 section h2.section-heading {
     font-size: 40px;
@@ -571,6 +572,7 @@ section#contact {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    
 }
 section#contact .section-heading {
     margin-bottom: -100px;
@@ -785,4 +787,33 @@ img::-moz-selection {
     margin-top:45px;
     height:60px;
     width: 120px;
+}
+.linea{
+    height: 2px; 
+}
+
+.linea2{
+    position: relative;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    
+}
+.bg-light-blue {
+    background-color: white;
+}
+
+.proyect-heading{
+    margin-top: -40px;
+}
+.proyect-subtext{
+    font-style: normal; 
+    color: #33a7ff;
+}
+.proyectopng{
+    align-content: center;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 30px;
+    margin-bottom: -20px
 }
