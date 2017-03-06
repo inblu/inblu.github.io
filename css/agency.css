@@ -811,9 +811,10 @@ img::-moz-selection {
     color: #33a7ff;
 }
 .proyectopng{
-    align-content: center;
+    
     position: relative;
     margin-left: 12%;
     margin-top: 30px;
-    margin-bottom: -20px
+    margin-bottom: -20px;
+    width: 75%;   
 }
